@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gasolineras"
+            android:icon="@drawable/ic_action_gas"
+            android:title="@string/menu_gasolineras" />
+        <item
+            android:id="@+id/nav_favoritos"
+            android:icon="@drawable/ic_menu_favoritos"
+            android:title="@string/menu_favoritos" />
+        <item
+            android:id="@+id/nav_filtrarGasolineras"
+            android:icon="@drawable/ic_menu_filtrar_gasolineras"
+            android:title="@string/menu_filtrarGasolineras" />
+        <item
+            android:id="@+id/nav_historicoRepostaje"
+            android:icon="@drawable/ic_menu_historico_repostaje"
+            android:title="@string/menu_historicoRepostaje" />
+    </group>
+
+    <item android:title="@string/menu_adicional">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_settings"
+                android:title="@string/menu_settings" />
+        </menu>
+    </item>
+</menu>
