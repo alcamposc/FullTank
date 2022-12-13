@@ -122,16 +122,6 @@ public class HomeFragment extends Fragment implements OnMapReadyCallback {
             mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(posicion, 17)); //Zoom a la ubicación.
         }
 
-
-        @Override
-        public void onProviderEnabled(String provider) {
-
-        }
-
-        @Override
-        public void onProviderDisabled(String provider) {
-
-        }
     };
 
     @SuppressLint("MissingPermission")
