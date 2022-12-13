@@ -22,10 +22,12 @@ import es.unex.fulltank.SimpleDividerItemDecoration;
 import es.unex.fulltank.bd.elembd.Gasolinera;
 import es.unex.fulltank.bd.elembd.GasolineraFavorita;
 import es.unex.fulltank.bd.roomdb.BD;
+import es.unex.fulltank.databinding.FragmentGasolinerasBinding;
 import es.unex.fulltank.ui.gasolineras.GasolinerasAdapter;
 
 public class FavoritosFragment extends Fragment implements GasolinerasAdapter.RecyclerViewClickListener {
-    private FragmentGasoline binding;
+
+    private FragmentGasolinerasBinding binding;
     private RecyclerView recycler;
     private ArrayList<Gasolinera> lGasolineras;
 

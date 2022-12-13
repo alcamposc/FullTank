@@ -12,8 +12,8 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.google.android.material.navigation.NavigationView;
-import es.unex.fulltank.databinding.ActivityMainBinding;
 
+import es.unex.fulltank.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity  {
 
